@@ -1,0 +1,18 @@
+Version 1.0.3
+--------------------------------------
+	- Database queries at 'pjActionSetup' now are moved into the 'database.sql'
+	
+Version 1.0.2
+---------------------------------------
+	- required framework version 1.0.11 or above
+	- mysql_* functions replaced with DBO driver
+
+Version 1.0.1
+---------------------------------------
+	- After search add Markers to the map
+		+ custom icons & shadows
+		+ click event handler opens InfoWindow  
+
+Version 1.0.0
+---------------------------------------
+	- initial

@@ -1,0 +1,170 @@
+body {
+  /*padding-top: 20px;*/
+  background: url('bg-dk.jpg') repeat 0 0;
+}
+html{}
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+ .form-group {
+        margin-bottom: 8px;
+      }
+
+/* hide built in avalability calendar 8*/
+#property-view-availability{display: none;}
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.container {
+/*    -webkit-box-shadow:  0 0 4px 4px #CCCCCC; 
+box-shadow: 0 0 4px 4px #CCCCCC;*/
+background:#fff;
+    width: 970px;
+}
+.featured{border-bottom: 1px solid #dfe0e0;}
+/* Customize the nav-justified links to be fill the entire space of the .navbar
+.cycle-slideshow img { width: 100%; height: auto } */
+/* slides */
+#slideshow {
+  height: 531px;
+  width: 1001px;
+}
+/*#slideshow img {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+}*/
+.cycle-pager {
+  position: absolute;
+  bottom: 20px;
+  right: 300px;
+  z-index: 200;
+}
+.cycle-pager span {
+  width: 48px;
+  height:48px;
+  margin: 0 2px;
+  float: left;
+  display: block;
+  text-indent: -9999px;
+  cursor:pointer;
+  background: url(/img/nav-a.png) center no-repeat;
+}
+.cycle-pager .cycle-pager-active {
+  background: url(/img/nav-a-activeSlide.png) center no-repeat;
+}
+.cycle-pager span:hover {
+  outline: none;
+  cursor:pointer;
+  background: url(/img/nav-a-hover.png) center no-repeat;
+}
+/* end slides */
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+a {
+    color: #900;
+    text-decoration: none;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background-color: #404040; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#404040));
+  background-image: -webkit-linear-gradient(top, #404040 0%, #404040 100%);
+  background-image:      -o-linear-gradient(top, #404040 0%, #404040 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #404040), to(#404040));
+  background-image:         linear-gradient(top, #404040 0%, #404040 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#404040',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #404040;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #404040; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#404040));
+  background-image: -webkit-linear-gradient(top, #404040 0%, #404040 100%);
+  background-image:      -o-linear-gradient(top, #404040 0%, #404040 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #404040), to(#404040));
+  background-image:         linear-gradient(top, #404040 0%, #404040 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#404040',GradientType=0 ); /* IE6-9 */
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #404040;
+    color: #fff;
+    outline: 0 none;
+    text-decoration: none;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #000000;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #000;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+  }
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;margin-bottom: 10px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.property-grid-pic img {
+    max-width: 193px !important;
+}
+.logo {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 970px;
+}
